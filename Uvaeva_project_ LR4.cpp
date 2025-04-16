@@ -7,7 +7,8 @@ float x = 0;
 float y = 0;
 float razn = x - y;
 void raznost(){
-//задание 1 ввести вещественное число х
+cout << "ввести вещественное число х" << endl;
+cin >> x;  
 cout << "Результат задания 1:" << endl;
 }
 void razni(){
