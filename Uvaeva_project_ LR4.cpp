@@ -15,7 +15,8 @@ void razni(){
 cout << "Результат задания 2:" << endl;
 }
 void zad(){
-//задание 3 найти целую часть разности этих 2-х чисел
+int trash = static_cast<int>(razn)
+cout << trash << endl;
 cout << "Результат задания 3:" << endl;
 }
 void zadan(){
