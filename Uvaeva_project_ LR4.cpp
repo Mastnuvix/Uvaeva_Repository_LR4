@@ -7,12 +7,14 @@ float x = 0;
 float y = 0;
 float razn = x - y;
 void raznost(){
-//задание 1 ввести вещественное число х
+cout << "ввести вещественное число х" << endl;
+cin >> x;  
 cout << "Результат задания 1:" << endl;
 }
 void razni(){
-//задание 2 ввести вещественное число y
-cout << "Результат задания 2:" << endl;
+    cout << "ввести вещественное число y" << endl;
+    cin >> y;  
+    cout << "Результат задания 2:" << endl;
 }
 void zad(){
 int trash = static_cast<int>(razn)
