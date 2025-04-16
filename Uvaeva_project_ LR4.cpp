@@ -22,7 +22,8 @@ cout << trash << endl;
 cout << "Результат задания 3:" << endl;
 }
 void zadan(){
-//задание 4 найти дробную часть разности этих 2-ч чисел
+double rulka = razn - trash;
+cout << rulka << endl;
 cout << "Результат задания 4:" << endl;
 }   
 int main()
